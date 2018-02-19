@@ -1,10 +1,18 @@
 Package: simmedd
-Title: What the Package Does (one line, title case)
+Title: Simulating Metabolic Disease Dynamics
 Version: 0.0.0.9000
-Authors@R: Luke Johnston <lwjohnst@gmail.com> [aut, cre]
-Description: What the package does (one paragraph).
+Authors@R: c(
+    person("Luke", "Johnston", email = "lwjohnst@gmail.com", role = c("aut", "cre")),
+    person("Daniel", "Witte", email = "daniel.witte@ph.au.dk", role = c("aut"))
+    )
+Description: This project provides an infrastructure to creating a simulation
+    of dynamics in the development of metabolic diseases. This is the start of
+    this project and this will be described in more detail later.
 Depends: R (>= 3.4.3)
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
